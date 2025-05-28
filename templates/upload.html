@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head><title>Upload PDF for Podcast</title></head>
+  <body>
+    <h1>Upload PDF</h1>
+    <form method="post" action="{{ url_for('create_podcast') }}" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".pdf">
+      <button type="submit">CREATE</button>
+    </form>
+    {% for msg in get_flashed_messages() %}
+      <p style="color:red">{{ msg }}</p>
+    {% endfor %}
+  </body>
+</html>

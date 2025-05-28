@@ -1,0 +1,6 @@
+flask               # Flask web framework :contentReference[oaicite:2]{index=2}
+PyPDF2              # PDF text extraction :contentReference[oaicite:3]{index=3}
+openai              # official OpenAI Python client :contentReference[oaicite:0]{index=0}  
+azure-identity      # Azure AD credential support :contentReference[oaicite:5]{index=5}
+azure-cognitiveservices-speech  # Azure Speech SDK :contentReference[oaicite:6]{index=6}
+python-dotenv       # Environment variable loading :contentReference[oaicite:7]{index=7}

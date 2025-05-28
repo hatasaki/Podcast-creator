@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head><title>Your Podcast is Ready</title></head>
+  <body>
+    <h1>Your Podcast is Ready</h1>
+    <audio controls>
+      <source src="{{ url_for('download', audio_file=audio_file) }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p><a href="{{ url_for('download', audio_file=audio_file) }}">Download Podcast</a></p>
+    <p><a href="/">Back</a></p>
+  </body>
+</html>
